@@ -1,3 +1,5 @@
+FROM ubuntu:latest
+
 # Actualiza el sistema y añade las dependencias necesarias
 RUN apt-get update && \
     apt-get install -y python3-pip python3-dev && \
